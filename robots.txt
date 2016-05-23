@@ -1,0 +1,7 @@
+User-Agent: *
+Disallow: 
+Allow: /
+Allow: /about
+Allow: /freelance
+Allow: /projects
+Allow: /side-projects
