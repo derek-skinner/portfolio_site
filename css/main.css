@@ -379,3 +379,10 @@ span a {
 li {
 	font-family: Roboto;
 }
+
+.top-bar-section ul {
+	display: inline;
+	height: auto !important;
+	width: auto;
+	background-color: #333;
+}

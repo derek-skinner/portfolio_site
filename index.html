@@ -12,10 +12,9 @@
 	<meta name="description" content="The portfolio of Derek Skinner, a Designer/Developer in the SF bay area.">
 	<meta name="viewport" content="width=device-width">
 
-	<script async src="js/build/custom-modernizr.js"></script>
-	<link rel="stylesheet" href="dist/css/tidy.css">
-	<link rel="stylesheet" href="dist/css/main.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyloadxt/1.0.5/jquery.lazyloadxt.fadein.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css">
 	<!--[if lt IE 9]> <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script> <![endif]-->
 </head>
 
@@ -25,16 +24,20 @@
 		<nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: large" data-options="scrolltop: false">
 
 			<section class="top-bar-section">
-				<ul class="right">
-					<li class="active"><a href="freelance">Freelance - Hire Me!</a>
-					</li>
-				</ul>
-
 				<!-- Left Nav Section -->
 				<ul class="left">
 					<li><a href="/">Home</a>
 					</li>
-					<li><a href="projects">Projects</a>
+					<li>
+						<a href="#" data-dropdown="hover1" data-options="is_hover:true; hover_timeout:300">Projects</a>
+						<ul id="hover1" class="f-dropdown" data-dropdown-content>
+							<li><a href="motion-graphics">Motion Graphic Design</a></li>
+							<li><a href="web-banners">Web Banner Designs</a></li>
+							<li><a href="web-designdev">Website Design/Dev</a></li>
+							<li><a href="rfp">RFP's/Concepting</a></li>
+							<li><a href="native-ads">Native Ad Designs</a></li>
+							<li><a href="mobile-apps">Mobile Apps</a></li>
+						</ul>
 					</li>
 					<li><a href="about">About Me</a>
 					</li>
@@ -99,7 +102,7 @@
 	<div class="row">
 		<div class="large-12 columns">
 			<h2>About</h2>
-			<p>Hi! My name is Derek Skinner. I am a hardworking and dedicated individual with over 5 years professional working experience and a Bachelors degree in design. Strong skills in design/development; I love pushing the limits and making ideas come to life. Coworkers have described me as someone who is devoted to projects from initial concept to final delivery. My current title is Designer/Developer at CBS Interactive. If you're curious, find out more <span><a href="about.html">about me.</a></span>
+			<p>Hi! My name is Derek Skinner. I am a hardworking and dedicated individual with over 5 years professional working experience and a Bachelors degree in design. Strong skills in design/development; I love pushing the limits and making ideas come to life. Coworkers have described me as someone who is devoted to projects from initial concept to final delivery. My current title is Designer at CBS Interactive. If you're curious, find out more <span><a href="about.html">about me.</a></span>
 			</p>
 		</div>
 
@@ -147,8 +150,6 @@
 			</div>
 
 			<div class="large-3 small-6 columns">
-				<?xml version="1.0" encoding="utf-8" ?>
-				<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-190 -190 500 500" enable-background="new -190 -190 500 500" xml:space="preserve">
 					<filter width="12" height="12" y="-10" x="-10" id="blur">
 						<feGaussianBlur in="SourceGraphic" stdDeviation="1"></feGaussianBlur>
@@ -315,10 +316,10 @@
 		</div>
 	</footer>
 
-
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 
-	<script src="http://cdn.foundation5.zurb.com/foundation.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/js/foundation.min.js"></script>
+
 
 
 	<script>

@@ -11,10 +11,9 @@
 	<title>Derek Skinner | Designer/Developer</title>
 	<meta name="description" content="The portfolio of Derek Skinner, a Designer/Developer in the SF bay area.">
 	<meta name="viewport" content="width=device-width">
-	<link rel="stylesheet" href="css/custom-foundation.css" />
-	<script async src="js/build/custom-modernizr.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyloadxt/1.0.5/jquery.lazyloadxt.fadein.min.css">
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css">
 	<!--[if lt IE 9]> <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script> <![endif]-->
 </head>
 
@@ -23,21 +22,27 @@
 	<div class="contain-to-grid sticky">
 		<nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: large" data-options="scrolltop: false">
 
-			<section class="top-bar-section">
-				<ul class="right">
-					<li class="active"><a href="freelance">Freelance - Hire Me!</a>
-					</li>
-				</ul>
 
+			<section class="top-bar-section">
 				<!-- Left Nav Section -->
 				<ul class="left">
 					<li><a href="/">Home</a>
 					</li>
-					<li><a href="projects">Projects</a>
+					<li>
+						<a href="#" data-dropdown="hover1" data-options="is_hover:true; hover_timeout:300">Projects</a>
+						<ul id="hover1" class="f-dropdown" data-dropdown-content>
+							<li><a href="motion-graphics">Motion Graphic Design</a></li>
+							<li><a href="web-banners">Web Banner Designs</a></li>
+							<li><a href="web-designdev">Website Design/Dev</a></li>
+							<li><a href="rfp">RFP's/Concepting</a></li>
+							<li><a href="native-ads">Native Ad Designs</a></li>
+							<li><a href="mobile-apps">Mobile Apps</a></li>
+						</ul>
 					</li>
 					<li><a href="about">About Me</a>
 					</li>
 					<li><a href="side-projects">Side Projects</a>
+					</li>
 				</ul>
 			</section>
 
@@ -94,77 +99,7 @@
 		</div>
 	</div>
 
-	<div class="row" style="padding-top:50px;">
-		<div class="large-12 columns">
-			<h2>Web Design/Development</h2>
-			<p>Some of my latest web design/development work.</p>
-
-			<ul class="clearing-thumbs small-block-grid-2" data-clearing>
-				<li>
-					<a href="img/dist/webportfolio/svesite.png"><img data-caption="Salinas Valley Embroidery website design and development using Wordpress CMS" src="img/dist/webportfolio/thumb/svethumb.jpg">
-					</a>
-				</li>
-				<li>
-					<a href="img/dist/webportfolio/mograph.png"><img data-caption="Mograph Media website design and development" src="img/dist/webportfolio/thumb/mographthumb.jpg">
-					</a>
-				</li>
-				<li>
-					<a href="img/dist/webportfolio/TVGuide_SXSW_Music_Wireframe.jpg"><img data-caption="Wireframe created for TV Guide SXSW Music page" src="img/dist/webportfolio/thumb/TVG_SXSW_wireframethumb.jpg">
-					</a>
-				</li>
-				<li>
-					<a href="img/dist/webportfolio/TVGuide_SXSW_Music_Mock.jpg"><img data-caption="TV Guide SXSW Web page Design" src="img/dist/webportfolio/thumb/TVG_SXSW_Mockthumb.jpg">
-					</a>
-				</li>
-			</ul>
-		</div>
-	</div>
-
-	<div class="row">
-		<hr class="doubleline" />
-		<div class="large-12 columns">
-			<h2>Web Banner Designs</h2>
-			<p>Some of my latest ad unit design/development work.</p>
-
-			<ul class="clearing-thumbs small-block-grid-4" data-clearing>
-				<li>
-					<a href="img/dist/banners/300x250-MASS.jpg"><img data-caption="Gamespot E3 banner" src="img/dist/banners/300x250-MASS.jpg" width="300px" height="250px" />
-					</a>
-				</li>
-				<li>
-					<a href="img/dist/banners/BUICK_SummerRoadTrip_MPU_Option21.jpg"><img data-caption="Buick Summer Road Trip CNET Cobrand" src="img/dist/banners/BUICK_SummerRoadTrip_MPU_Option21.jpg" width="300px" height="250px" />
-					</a>
-				</li>
-				<li>
-					<a href="img/dist/banners/CBS_FORD_AMAZINGRACE_300x250.jpg"><img data-caption="CBS Amazing Race Ford cobrand banner" src="img/dist/banners/CBS_FORD_AMAZINGRACE_300x250.jpg" width="300px" height="250px" />
-					</a>
-				</li>
-				<li>
-					<a href="img/dist/banners/CBS_SURVIVOR_CONNECT_MPU_r3.jpg"><img data-caption="CBS Survivor Connect banner" src="img/dist/banners/CBS_SURVIVOR_CONNECT_MPU_r3.jpg" width="300px" height="250px" />
-					</a>
-				</li>
-				<li>
-					<a href="img/dist/banners/chow_got_milk_cobranded_MPU_Milkshake.jpg"><img data-caption="Chow/Got Milk? cobrand banner" src="img/dist/banners/chow_got_milk_cobranded_MPU_Milkshake.jpg" width="300px" height="250px" />
-					</a>
-				</li>
-				<li>
-					<a href="img/dist/banners/Chow_LunchWorthEating_300x250_Option1.jpg"><img data-caption="Chow Lunch Worth Eating show banner" src="img/dist/banners/Chow_LunchWorthEating_300x250_Option1.jpg" width="300px" height="250px" />
-					</a>
-				</li>
-				<li>
-					<a href="img/dist/banners/Default_300x250.jpg"><img data-caption="Chow Thanksgiving banner" src="img/dist/banners/Default_300x250.jpg" width="300px" height="250px" />
-					</a>
-				</li>
-				<li>
-					<a href="img/dist/banners/TV.com_Bracket_Cobrand_option2.jpg"><img data-caption="TV.com Bracket Challenge banner" src="img/dist/banners/TV.com_Bracket_Cobrand_option2.jpg">
-					</a>
-				</li>
-			</ul>
-		</div>
-	</div>
-
-	<div class="row">
-		<hr class="doubleline" />
+	<div class="row" style="padding-top:25px;">
 		<div class="large-12 columns">
 			<h2>Motion Design &amp; Video Editing</h2>
 			<p>Some of my latest motion graphics, animation &amp; video editing work.</p>
@@ -172,58 +107,68 @@
 			<ul class="clearing-thumbs small-block-grid-2" data-clearing>
 				<li>
 					<div class="flex-video widescreen vimeo">
-						<iframe data-src="//player.vimeo.com/video/119471128?color=ffffff&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						<iframe src="//player.vimeo.com/video/119471128?color=ffffff&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 					</div>
 				</li>
 				<li>
 					<div class="flex-video widescreen vimeo">
-						<iframe data-src="//player.vimeo.com/video/94035646?color=ffffff&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						<iframe src="//player.vimeo.com/video/94035646?color=ffffff&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 						<img src="http://placehold.it/640x360" class="video-thumb" data-vimeo-id="94035646" />
 					</div>
 				</li>
 				<li>
 					<div class="flex-video widescreen vimeo">
-						<iframe data-src="//player.vimeo.com/video/41663209?color=ffffff&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						<iframe src="//player.vimeo.com/video/139261728?color=ffffff&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 					</div>
 				</li>
 				<li>
 					<div class="flex-video widescreen vimeo">
-						<iframe data-src="//player.vimeo.com/video/41662381?color=ffffff&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						<iframe src="//player.vimeo.com/video/41663209?color=ffffff&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 					</div>
 				</li>
 				<li>
 					<div class="flex-video widescreen vimeo">
-						<iframe data-src="//player.vimeo.com/video/41661364?color=ffffff&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						<iframe src="//player.vimeo.com/video/41662381?color=ffffff&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 					</div>
 				</li>
 				<li>
 					<div class="flex-video widescreen vimeo">
-						<iframe data-src="//player.vimeo.com/video/94034846?color=ffffff&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						<iframe src="//player.vimeo.com/video/41661364?color=ffffff&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 					</div>
 				</li>
 				<li>
 					<div class="flex-video widescreen vimeo">
-						<iframe data-src="//player.vimeo.com/video/60864155?color=ffffff&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						<iframe src="//player.vimeo.com/video/94034846?color=ffffff&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 					</div>
 				</li>
 				<li>
 					<div class="flex-video widescreen vimeo">
-						<iframe data-src="//player.vimeo.com/video/54252656?color=ffffff&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						<iframe src="//player.vimeo.com/video/139263362?color=ffffff&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 					</div>
 				</li>
 				<li>
 					<div class="flex-video widescreen vimeo">
-						<iframe data-src="//player.vimeo.com/video/53229099?color=ffffff&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						<iframe src="//player.vimeo.com/video/60864155?color=ffffff&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 					</div>
 				</li>
 				<li>
 					<div class="flex-video widescreen vimeo">
-						<iframe data-src="//player.vimeo.com/video/46501303?color=ffffff&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						<iframe src="//player.vimeo.com/video/54252656?color=ffffff&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 					</div>
 				</li>
 				<li>
 					<div class="flex-video widescreen vimeo">
-						<iframe data-src="//player.vimeo.com/video/44896664?color=ffffff&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						<iframe src="//player.vimeo.com/video/53229099?color=ffffff&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					</div>
+				</li>
+				<li>
+					<div class="flex-video widescreen vimeo">
+						<iframe src="//player.vimeo.com/video/46501303?color=ffffff&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					</div>
+				</li>
+				<li>
+					<div class="flex-video widescreen vimeo">
+						<iframe src="//player.vimeo.com/video/44896664?color=ffffff&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 					</div>
 				</li>
 			</ul>
@@ -240,11 +185,8 @@
 
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyloadxt/1.0.5/jquery.lazyloadxt.extra.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyloadxt/1.0.5/jquery.lazyloadxt.autoload.min.js"></script>
-	<script async src="//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
 	<script src="http://cdn.foundation5.zurb.com/foundation.js"></script>
-
 
 	<script>
 		$(document).foundation();
