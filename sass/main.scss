@@ -1,0 +1,9 @@
+// Reset default browser styles using Normalize
+@import "base/normalize";
+// Import your variables
+@import "base/variables";
+//Import Typography Styling
+@import "base/typography";
+//Import Modules
+@import "modules/socialnav";
+@import "modules/horizontalrule";
